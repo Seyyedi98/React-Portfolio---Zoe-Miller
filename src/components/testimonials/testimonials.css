@@ -37,3 +37,8 @@
   font-size: var(--largest-font-size);
   margin-top: 30px;
 }
+
+.c__shape-fix {
+  right: -56px;
+  bottom: -56px;
+}

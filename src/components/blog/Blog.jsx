@@ -3,7 +3,6 @@ import "./blog.css";
 import Blog1 from "../../assets/blog1.jpg";
 import Blog2 from "../../assets/blog2.jpg";
 import Blog3 from "../../assets/blog3.jpg";
-// import "../../assets/data";
 
 import { FaArrowRight } from "react-icons/fa";
 

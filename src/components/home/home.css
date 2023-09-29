@@ -25,11 +25,6 @@
   color: var(--title-color);
 }
 
-.home__subtitle span,
-home__title span {
-  color: var(--primary-color);
-}
-
 .home__job b {
   font-family: var(--second-font);
   font-size: var(--h2-font-size);
@@ -37,12 +32,18 @@ home__title span {
 }
 
 .home__title {
+  color: #fff;
   font-size: var(--biggest-font-size);
   text-shadow: 2px 2px hsl(0, 0%, 0%), -2px 2px hsl(0, 0%, 0%),
     -2px -2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%),
     5px 5px 0 rgb(0 0 0 /20%);
   line-height: 1.2;
   margin-top: 15px;
+}
+
+.home__subtitle span,
+.home__title span {
+  color: var(--primary-color);
 }
 
 .home__text {
@@ -87,7 +88,7 @@ home__title span {
   position: absolute;
   top: -10%;
   /* -------------------------------orginally it's 9%------------------------------- */
-  transform: translateY(-2%);
+  transform: translateY(-9%);
   right: 12px;
   width: 100%;
   max-width: 680px;
