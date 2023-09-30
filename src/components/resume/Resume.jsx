@@ -2,6 +2,7 @@ import { cv } from "../../Data";
 import Card from "./Card";
 import "./Resume.css";
 import "./resume.css";
+import shapeOne from "../../assets/shape-1.png";
 
 function Resume() {
   return (
@@ -49,6 +50,14 @@ function Resume() {
             })}
           </div>
         </div>
+      </div>
+
+      <div className="section__deco deco__left">
+        <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__ttile">History</span>
       </div>
     </section>
   );

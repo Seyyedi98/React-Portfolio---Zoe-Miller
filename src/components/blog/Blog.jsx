@@ -4,6 +4,7 @@ import Blog1 from "../../assets/blog1.jpg";
 import Blog2 from "../../assets/blog2.jpg";
 import Blog3 from "../../assets/blog3.jpg";
 
+import shapeOne from "../../assets/shape-1.png";
 import { FaArrowRight } from "react-icons/fa";
 
 function Blog() {
@@ -61,6 +62,14 @@ function Blog() {
           </a>
           <img src={Blog3} alt="" className="blog__img" />
         </div>
+      </div>
+
+      <div className="section__deco deco__right">
+        <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__ttile">Blog</span>
       </div>
     </section>
   );

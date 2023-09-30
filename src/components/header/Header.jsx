@@ -6,6 +6,7 @@ import { BsSun, BsMoon } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { animateScroll } from "react-scroll";
+import shapeOne from "../../assets/shape-1.png";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -85,6 +86,10 @@ function Header() {
                 <FaBehance />
               </a>
             </div>
+          </div>
+
+          <div className="section__deco deco__left header__deco">
+            <img src={shapeOne} alt="" className="shape" />
           </div>
         </div>
 

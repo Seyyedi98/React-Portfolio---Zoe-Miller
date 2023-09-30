@@ -2,6 +2,7 @@
 import "./services.css";
 import { services } from "../../Data";
 import { FaArrowRight } from "react-icons/fa";
+import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
 // Import Swiper React components
@@ -23,6 +24,7 @@ function Services() {
       </p>
 
       <Swiper
+        spaceBetween={50}
         pagination={{
           clickable: true,
         }}
@@ -49,7 +51,7 @@ function Services() {
               <span className="services__subtitle text-cs">{name}</span>
               <h3 className="services__title">{title}</h3>
               <p className="services__description">{description}</p>
-              <a href="" className="link">
+              <a href="#pricing" className="link">
                 See Pricing <FaArrowRight className="link__icon"></FaArrowRight>
               </a>
               <img src={shapeTwo} className="shape c__shape"></img>
@@ -57,6 +59,14 @@ function Services() {
           );
         })}
       </Swiper>
+
+      <div className="section__deco deco__right">
+        <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__ttile">Services</span>
+      </div>
     </section>
   );
 }

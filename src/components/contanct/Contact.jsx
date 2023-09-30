@@ -13,6 +13,7 @@ import {
   FaRegEnvelope,
 } from "react-icons/fa";
 import axios from "axios";
+import shapeOne from "../../assets/shape-1.png";
 
 function Contact() {
   const [form, setForm] = useState({
@@ -145,6 +146,13 @@ function Contact() {
             </button>
           </div>
         </form>
+      </div>
+      <div className="section__deco deco__left">
+        <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__ttile">Contact Me</span>
       </div>
     </section>
   );

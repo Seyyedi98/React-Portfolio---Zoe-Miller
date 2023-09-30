@@ -70,11 +70,19 @@ function Home() {
             <a href="" className="btn text-cs">
               Download CV
             </a>
-            <a href="" className="hero__link text-cs">
+            <a href="#skills" className="hero__link text-cs">
               My Skills
             </a>
           </div>
         </div>
+
+        <div className="section__deco deco__left">
+          <img src={shapeOne} alt="" className="shape" />
+        </div>
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__ttile">Web Developer</span>
       </div>
     </section>
   );
