@@ -13,7 +13,7 @@ I am a passionate developer who loves to create innovative solutions using cutti
 - **Description:** This project is an example of what I can do.
 - **Technologies Used:** React, Tailwind CSS
 - **GitHub Repository:** [Link](https://github.com/yourusername/awesome-project)
-- **Live Demo:** [Link]([https://www.awesomeproject.com](https://bautiful-portfolop.netlify.app/))
+- **Live Demo:** [Link](https://bautiful-portfolop.netlify.app)
 
 ## Skills
 
